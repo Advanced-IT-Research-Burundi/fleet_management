@@ -104,6 +104,7 @@ android {
 }
 
 dependencies {
+    implementation(libs.androidx.material3.adaptive.navigation.suite.android)
     debugImplementation(compose.uiTooling)
 }
 
